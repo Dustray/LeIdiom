@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/abName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/abname" 
+            android:textColor="#050505"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/abBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abby" 
+            android:textColor="#050505"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/abPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abpro" 
+            android:textColor="#050505"
+            android:textSize="18sp"/>
+        
+        <TextView
+            android:id="@+id/abProThis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/abprothis" 
+            android:textColor="#858585"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

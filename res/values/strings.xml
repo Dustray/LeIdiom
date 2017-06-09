@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LeIdiom</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_study">学习</string>
+    <string name="title_search">搜搜</string>
+    <string name="title_game">游戏</string>
+    <string name="title_save">收藏</string>
+    <string name="title_help">帮助</string>
+
+    <string-array name="category">
+        <item>动物类</item>
+        <item>自然类</item>
+        <item>人物类</item>
+        <item>季节类</item>
+        <item>数字类</item>
+        <item>寓言类</item>
+        <item>其他类</item>
+    </string-array>
+
+    <string name="animal">动物</string>
+    <string name="title_activity_animal">AnimalActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="gameStr1">·</string>
+    <string name="gameStr2">·</string>
+    <string name="gameStr3">·</string>
+    <string name="gameStr4">·</string>
+    <string name="gameShowStr1">本</string>
+    <string name="gameShowStr2">示</string>
+    <string name="gameShowStr3">例</string>
+    <string name="gameShowStr4">文</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="abname">软件名称：乐学成语</string>
+    <string name="abby">制作人：尹越</string>
+    <string name="abpro">主要功能介绍：</string>
+    <string name="abprothis">本软件在实现查询成语的基础上额外增加了两个功能。增加了一个小游戏，根据打乱的字的顺序拼出正确的成语，成功加一分。</string>
+    <string name="title_activity_temp">TempActivity</string>
+
+</resources>
